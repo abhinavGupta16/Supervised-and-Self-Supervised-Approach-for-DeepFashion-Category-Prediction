@@ -103,10 +103,6 @@ print(args.lr)
 ### Neural Network and Optimizer
 # We define neural net in model.py so that it can be reused by the evaluate.py script
 
-from model import Net, SpatialNet
-#model = Net()
-#model = SpatialNet()
-
 #model = AWESOME_NET()
 model = AWESOME_NET3()
 #model = AWESOME_NET2()
